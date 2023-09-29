@@ -44,6 +44,7 @@ selectRandColor
   return (
     <>
       <div className='overlay' style={{ backgroundColor: randColor, transition }}>
+        <h1 id='MDText'>FCC Random Quote Machine</h1>
         <div id='quote-box'>
           <div className='innerquote'>
             <h2 id='text'>
